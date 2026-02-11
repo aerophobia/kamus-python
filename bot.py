@@ -30,8 +30,8 @@ async def mem1(ctx):
     await ctx.send(file=picture)
 
 @bot.command()
-async def animals(ctx):
-    with open('images/animals.jpg', 'rb') as f:
+async def car(ctx):
+    with open('images/car.jpg', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
 
